@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+}
+nav{
+    background-color: black;
+}
+.nav-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.social-media a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.social-media a:hover{
+    background-color: #ccc;
+    color:black;
+}
+.search-button a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.search-button a:hover{
+    background-color: #ccc;
+    color: black;
+}
+.home-page{
+    display: flex;
+    flex-direction: column;
+}
+.home-title{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    text-align: center;
+    background-color: white;
+    h1{
+        font-size: 40px;
+        font-weight:bolder;
+        padding: 10px;
+    }
+}
+.home-title p span{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.home-content img{
+    height: auto;
+    width: 100%;
+}
+.home-content{
+    position: relative;
+}
+.home-left{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    padding: 20px;
+}
+.home-left h3{
+    color: white;
+    padding: 10px;
+    font-size: 35px;
+}
+.home-left h1{
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+}
+.home-button{
+    padding: 10px;
+}
+.home-button button{
+    opacity: 0.6;
+    padding: 15px;
+    font-size: 20px;
+}
+.home-button button:hover{
+    opacity: 1;
+}
+.blog-page{
+    padding:10px 10px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.blog-left-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.blog{
+    background-color: white;
+    padding: 25px;
+}
+.blog-title h1{
+    padding: 10px;
+    text-align: center;
+}
+.blog-title p{
+    padding: 10px 0px;
+    text-align: center;
+}
+.blog-title p span{
+    color: #a9a9a9;
+}
+.blog span{
+    color: black;
+    font-weight: bold;
+}
+.blog p{
+    padding:10px 0px;
+}
+.blog img{
+    width: 100%;
+    height: auto;
+}
+.blog-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.like-button{
+    background-color: white;
+    color:black;
+    padding: 10px 15px;
+    border: solid 1px #ccc;
+    font-size: 16px;
+}
+.like-button:hover{
+    background-color: #a9a9a9;
+}
+.blog-reply{
+    background-color: black;
+    color:white;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-right: 5px;
+    border: none;
+    span{
+        background-color: white;
+        color: black;
+        padding: 5px 8px;
+    }
+}
+.blog-reply:hover{
+    background-color: #a9a9a9;
+}
+.comment{
+    padding: 10px 0;
+    border-top: solid 1px #a9a9a9;
+    margin-top: 25px;
+}
+.comment1{
+    display: flex;
+    margin-top: 10px;
+    padding: 0 0 10px 0;
+}
+.comment-flex h3,.comment-flex p{
+    padding:3px 10px;
+}
+.comment-flex h3 span{
+    color: #a9a9a9;
+}
+.comment1 img{
+    height: 70px;
+    width: 70px;
+    margin: 0 10px 0 0;
+}
+.blog-right-contents{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    width: 100%;
+    padding: 10px;
+}
+.my-name{
+    background-color:black;
+}
+.my-name img{
+    height: auto;
+    width: 100%;
+}
+.my-name h1{
+    color: white;
+    padding: 10px;
+}
+.my-name p{
+    color: white;
+    padding: 0px 10px 10px 10px;
+}
+.popular-post{
+    display: flex;
+    flex-direction: column;
+}
+.popular-title{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 24px;
+}
+.popular-post-content{
+    display: flex;
+    flex-direction: column;
+}
+.post img{
+    height: auto;
+    width: 50px;
+}
+.post{
+    display:flex;
+    padding: 10px;
+    background-color: white;
+    border-bottom: solid 1px #ccc;
+}
+.post:hover{
+    background-color: #a9a9a9;
+}
+.post-flex{
+    padding: 10px;
+}
+.advertise{
+    height: auto;
+    max-width: 100%;
+}
+.advertise-title{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+.advertise-box{
+    padding: 20px;
+    background-color: white;
+}
+.advertisement{
+    padding: 100px;
+    background-color: #ccc;
+    text-align: center;
+}
+.tags{
+    display: flex;
+    flex-direction: column;
+}
+.tag-title{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+.tag-contents{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: white;
+    gap: 5px;
+}
+.tag-contents span{
+    padding: 3px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.tag-contents p{
+    background-color: #ccc;
+    color: black;
+    text-align: center;
+    padding: 3px;
+}
+.inspiration{
+    display: flex;
+    flex-direction: column;
+}
+.inspiration-title{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+.inspiration-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.inspiration-grid img{
+    height: auto;
+    width: 100%;
+}
+.follow-me{
+    display: flex;
+    flex-direction: column;
+}
+.follow-me-title{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+.follow-me-contents{
+    background-color: white;
+    padding: 10px 15px;
+}
+.follow-me-contents a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.follow-me-contents a:hover{
+    color: #a9a9a9;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+}
+.subscribe-title{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+.subscribe-contents{
+    background-color: white;
+    padding: 10px;
+}
+.subscribe-contents p{
+    padding: 5px 5px 0px 5px;
+}
+.subscribe-contents form{
+    padding: 5px;
+}
+.subscribe-contents form input{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0px;
+}
+.subscribe-contents form button{
+    width: 100%;
+    padding: 15px;
+    background-color: red;
+    color:white;
+    border:none;
+    font-size: 16px;
+}
+.subscribe-contents form button:hover{
+    background-color: #a9a9a9;
+}
+footer{
+    background-color: darkgray;
+    padding: 30px;
+    margin-top: 30px;
+}
+footer button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+footer p{
+    padding: 10px 0px ;
+    color: white;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    padding-top: 200px; 
+    left: 0;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0; /* Start with modal hidden */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition for opacity and visibility */
+    visibility: hidden; /* Start with modal invisible */
+}
+.sub-modal{
+    width: 900px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    height: auto;
+    padding:20px;
+}
+
+.sub-modal h1, .sub-modal p,.sub-modal form input{
+    padding: 10px;
+}
+.sub-modal form button{
+    background-color: red;
+    padding:15px;
+    color: white;
+    border: none;
+}
+.sub-modal .fa{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color:white;
+    color:black;
+    padding: 15px;
+    font-size: 24px;
+}
+.sub-modal .fa:hover{
+    background-color: #a9a9a9;
+}
+.sub-modal input[type="email"],.sub-modal button {
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.sub-modal button:hover{
+    background-color: #a9a9a9;
+}
+@media screen and (max-width:1000px){
+    .blog-page{
+        display: grid;
+        grid-template-columns: auto
+    }
+}
+@media screen and (max-width:700px){
+    .home-left h1{
+        display: none;
+    }
+    .home-left h3{
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+}
